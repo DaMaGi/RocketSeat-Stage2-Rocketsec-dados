@@ -1,0 +1,98 @@
+html {
+    --bg_main: #2F2E41;
+    --accent: #00BFA6;
+    --txt: #C2C2C2;
+    --title_txt: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg_main);
+    color: var(--title_txt);
+    font-family: "JetBrains Mono", monospace;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 98px;
+    position: relative;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 71px 0 101px;
+}
+
+ul {
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    color: var(--title_txt);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.nav_logo {
+    margin: 0 2px 7px;
+    height: 23px;
+}
+
+.emphasis {
+    color: var(--accent);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 156px;
+}
+
+.main_img {
+    margin-right: 72px;
+}
+
+.presentation_text {
+    max-width: 614px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+p {
+    color: var(--txt);
+    font: 16px/2 "Open Sans", sans-serif;
+    text-align: center;
+}
+
+footer div {
+    border-top: 1px solid var(--accent);
+    margin: 0 auto 24px;
+    max-width: 568px;
+    padding: 27px 48px 0;
+    text-align: center;
+}
+
+.lock {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}
